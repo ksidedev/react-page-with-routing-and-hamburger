@@ -1,0 +1,95 @@
+.greyBg {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-top: 3px; }
+
+.heading {
+  display: inline-block;
+  border-bottom: 2px solid #555; }
+
+.centerText {
+  text-align: center; }
+
+a:hover {
+  text-decoration: none; }
+
+.bm-menu-wrap {
+  display: none; }
+  @media only screen and (max-width: 639px) {
+    .bm-menu-wrap {
+      display: block; } }
+
+.navigation {
+  padding: 0;
+  height: auto;
+  display: block;
+  float: left;
+  /* background-color: #2ca8ff; */
+  width: 100%;
+  /* text-align: center; */
+  /*background-color: #2ca8ff;*/ }
+  @media only screen and (max-width: 639px) {
+    .navigation {
+      display: none; } }
+  .navigation .navOptionWrapper {
+    max-width: 780px;
+    display: block;
+    margin: 0 auto; }
+    .navigation .navOptionWrapper li {
+      display: inline-block;
+      list-style: none;
+      padding: 13px; }
+      .navigation .navOptionWrapper li a {
+        color: #555;
+        width: 100%;
+        display: block;
+        padding: 13px; }
+        .navigation .navOptionWrapper li a:hover {
+          background-color: #48b0fc;
+          border-radius: 30px;
+          color: #ffffff;
+          display: block;
+          text-decoration: none;
+          position: relative;
+          cursor: pointer;
+          -webkit-transition: background-color 0.3s;
+          /* Safari */
+          transition: background-color 0.3s; }
+        .navigation .navOptionWrapper li a:focus {
+          box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1);
+          border-radius: 30px;
+          background-color: #fff;
+          color: #2ca8ff;
+          display: block;
+          text-decoration: none;
+          position: relative;
+          cursor: pointer;
+          -webkit-transition: background-color 0.3s;
+          /* Safari */
+          transition: background-color 0.3s; }
+          .navigation .navOptionWrapper li a:focus i {
+            color: #2ca8ff; }
+      .navigation .navOptionWrapper li i {
+        font-size: 20px;
+        float: left;
+        margin-right: 12px;
+        line-height: 21px;
+        width: 34px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        position: relative; }
+
+.bodyWrapper {
+  display: inline-block;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%; }
+  @media only screen and (max-width: 639px) {
+    .bodyWrapper {
+      height: 100%;
+      min-height: 100vh;
+      width: 100%;
+      padding: 51px 25px 0 !important; } }
+
+.no-padding {
+  padding: 0; }
